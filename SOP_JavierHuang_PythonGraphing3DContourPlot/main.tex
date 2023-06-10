@@ -158,7 +158,7 @@ A contour plot is a useful visualization technique that allows us to explore the
 %----------------------------------------------------------------------------------------
 %	Python installation
 %----------------------------------------------------------------------------------------
-\section{How to install the Python packages}
+\section{Installing the Python packages}
 \begin{enumerate}
 	\item Open the Integrated Development Environment (IDE). This SOP will focus on using Visual Studio Code (VSCode).
 	\item Go to the Terminal section of VSCode (Fig. 1) or open the Windows Command Prompt (Fig. 2).
@@ -189,13 +189,11 @@ A contour plot is a useful visualization technique that allows us to explore the
 %	CODE
 %----------------------------------------------------------------------------------------
 
-\section{How to graph a 3D Contour Plot}
+\section{Graphing a 3D Contour Plot with Examples}
 
-\begin{enumerate}
-	\item \textbf{Creating a Generic Function}
-	
+\subsection{Creating a Generic Function Plot}
 	\begin{enumerate}
-		\item[1.] Create a new Python file, and import the libraries
+		\item Create a new Python file, and import the libraries
 		\begin{enumerate}
 			\item[] \begin{verbatim}
 				from mpl_toolkits import mplot3d
@@ -203,46 +201,58 @@ A contour plot is a useful visualization technique that allows us to explore the
 				import matplotlib.pyplot as plt
 			\end{verbatim}
 		\end{enumerate}
-		\item[2.] Generate the data for the contour plot. You can use NumPy to create a grid of x, y, and z values. In this example, we'll create a grid ranging from -5 to 5 for both x and y, and use the function $\sin(\sqrt{x^2 + y^2})$ for the z
+		\item Generate the data for the contour plot. You can use NumPy to create a grid of x, y, and z values. In this example, we'll create a grid ranging from -5 to 5 for both x and y, and use the function $\sin(\sqrt{x^2 + y^2})$ for the z
 		\begin{enumerate}
 			\item[] \begin{verbatim}
+				# Define the function to be plotted
 				def f(x, y):
-				return np.sin(np.sqrt(x ** 2 + y ** 2))
-				
+				    return np.sin(np.sqrt(x ** 2 + y ** 2))
+
+				# Generate x and y values
 				x = np.linspace(-5, 5, 100)
 				y = np.linspace(-5, 5, 100)
+
+				# Create a grid of x and y values
 				X, Y = np.meshgrid(x, y)
+
+				# Evaluate the function for each combination of x and y
 				Z = f(X, Y)
 			\end{verbatim}
 		\end{enumerate}
-		\item[3.] Plot the contour plot by passing the x, y, and z values, along with the number of contour levels (20) and the desired colormap
+		\item Plot the contour plot by passing the x, y, and z values, along with the number of contour levels (20) and the desired colormap
 		\begin{enumerate}
 			\item[] \begin{verbatim}
+				# Create a new figure
 				fig = plt.figure()
+
+				# Create a 3D axes object
 				ax = plt.axes(projection='3d')
+
+				# Create a 3D contour plot
 				ax.contour3D(X, Y, Z, 20, cmap='jet')
 			\end{verbatim}
 		\end{enumerate}
-		\item[4.] Add labels and customize the plot if desired
+		\item Add labels and customize the plot if desired
 		\begin{enumerate}
 			\item[] \begin{verbatim}
-				ax.set_xlabel('X')
-				ax.set_ylabel('Y')
-				ax.set_zlabel('Z')
-				ax.set_title('3D Contour Plot')
+				# Set labels for x, y, and z axes
+				ax.set_xlabel('x')
+				ax.set_ylabel('y')
+				ax.set_zlabel('z')
 			\end{verbatim}
 		\end{enumerate}
-		\item[5.] Display the plot
+		\item Display the plot
 		\begin{enumerate}
 			\item[] \begin{verbatim}
+				# Display the plot
 				plt.show()
 			\end{verbatim}
 		\end{enumerate}
-		\item[6.] Finally, execute the code to see the contour plot open in a separate window
+		\item Finally, execute the code to see the contour plot open in a separate window
 	\end{enumerate}
 	
-	Here is the complete code for graphing a 3D contour plot in Python
-	
+	\textbf{Complete code for graphing a 3D contour plot in Python:}
+
 	\begin{verbatim}
 		import numpy as np
 		from mpl_toolkits import mplot3d
@@ -250,7 +260,7 @@ A contour plot is a useful visualization technique that allows us to explore the
 		
 		# Define the function to be plotted
 		def f(x, y):
-		return np.sin(np.sqrt(x ** 2 + y ** 2))
+		    return np.sin(np.sqrt(x ** 2 + y ** 2))
 		
 		# Generate x and y values
 		x = np.linspace(-5, 5, 100)
@@ -282,8 +292,7 @@ A contour plot is a useful visualization technique that allows us to explore the
 		# Display the plot
 		plt.show()
 	\end{verbatim}
-	
-	The output of the program is displayed in Fig. 3
+	\textbf{The output of the program is displayed in Fig. 3}
 	
 	\begin{figure}[H]
 		\centering %A statement requiring citation \cite{Figueredo:2009dg}
@@ -292,11 +301,12 @@ A contour plot is a useful visualization technique that allows us to explore the
 		\label{fig:gallery} 
 	\end{figure}
 	
-	\item \textbf{Creating a Physics Related Plot}
+\subsection{Creating a Physics Related Plot}
 	
-	This example displays the gravitational potential of a point mass
-	
-	The function is replaced to be such:
+	The following example displays the gravitational potential of a point mass.
+	\newline
+	\newline
+	The function used in the plot is:
 	\begin{enumerate}
 		\item[] \begin{verbatim}
 			# Gravitational constant
@@ -304,13 +314,11 @@ A contour plot is a useful visualization technique that allows us to explore the
 			
 			# Define the gravitational potential function for a point mass
 			def gravitational_potential(x, y, mass):
-			r = np.sqrt(x ** 2 + y ** 2)  # Distance from the origin
-			return -G * mass / r
+			    r = np.sqrt(x ** 2 + y ** 2)  # Distance from the origin
+			    return -G * mass / r
 		\end{verbatim}
 	\end{enumerate}
-	
-	Here is the complete code for creating a physics related 3D contour plot in Python
-	
+	\textbf{Complete code for creating a physics related 3D contour plot in Python:}
 	\begin{verbatim}
 		import numpy as np
 		from mpl_toolkits import mplot3d
@@ -321,8 +329,8 @@ A contour plot is a useful visualization technique that allows us to explore the
 		
 		# Define the gravitational potential function for a point mass
 		def gravitational_potential(x, y, mass):
-		r = np.sqrt(x ** 2 + y ** 2)  # Distance from the origin
-		return -G * mass / r
+		    r = np.sqrt(x ** 2 + y ** 2)  # Distance from the origin
+		    return -G * mass / r
 		
 		# Generate x, y, and z values
 		x = np.linspace(-5, 5, 100)
@@ -357,8 +365,7 @@ A contour plot is a useful visualization technique that allows us to explore the
 		# Display the plot
 		plt.show()
 	\end{verbatim}
-	
-	The output of the program is displayed in Fig. 4
+	\textbf{The output of the program is displayed in Fig. 4}
 	
 	\begin{figure}[H]
 		\centering %A statement requiring citation \cite{Figueredo:2009dg}
@@ -366,7 +373,6 @@ A contour plot is a useful visualization technique that allows us to explore the
 		\caption[Final Physics 3D Contour Plot]{Final Physics 3D Contour Plot} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
 		\label{fig:gallery} 
 	\end{figure}
-\end{enumerate}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

@@ -3,8 +3,12 @@
 \addvspace {7\p@ }
 \contentsline {section}{\numberline {1}Uses of 3D Contour Graphing}{3}{section.1}%
 \addvspace {7\p@ }
-\contentsline {section}{\numberline {2}How to install the Python packages}{3}{section.2}%
+\contentsline {section}{\numberline {2}Installing the Python packages}{3}{section.2}%
 \addvspace {7\p@ }
-\contentsline {section}{\numberline {3}How to graph a 3D Contour Plot}{4}{section.3}%
+\contentsline {section}{\numberline {3}Graphing a 3D Contour Plot with Examples}{4}{section.3}%
+\addvspace {5\p@ }
+\contentsline {subsection}{\numberline {3.1}Creating a Generic Function Plot}{4}{subsection.3.1}%
+\addvspace {5\p@ }
+\contentsline {subsection}{\numberline {3.2}Creating a Physics Related Plot}{6}{subsection.3.2}%
 \addvspace {7\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
