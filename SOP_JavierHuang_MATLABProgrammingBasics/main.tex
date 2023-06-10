@@ -216,6 +216,8 @@ In this SOP, the principle of basic MATLAB programming is documented.
 		\item For Loop: Iterate a fixed number of times
 		
 		The \texttt{for} loop allows you to iterate a fixed number of times. You can specify the loop variable, the initial value, the increment, and the final value. The loop variable takes on each value in the specified range, and the statements inside the loop are executed for each iteration.
+		\newline
+		The \texttt{start:increment:end} operator is called the colon operator and it generates values from the start to the end with increments specified.
 		
 		\textbf{Example:}
 		\begin{verbatim}
@@ -262,6 +264,30 @@ In this SOP, the principle of basic MATLAB programming is documented.
 			result = functionName(input);
 		\end{verbatim}
 	\end{itemize}
+	
+	\item Built-in Math Functions:
+	
+	Math functions in MATLAB performs various mathematical operations on numeric data. These functions provide a wide range of capabilities for calculations involving absolute values, square roots, trigonometric operations, logarithms, and more.
+	
+	\textbf{Example:}
+	\begin{verbatim}
+		x = -5;
+		abs_x = abs(x);             % Absolute value of x: 5
+		
+		y = 9;
+		sqrt_y = sqrt(y);           % Square root of y: 3
+		
+		angle_deg = 45;
+		angle_rad = deg2rad(angle_deg);     % Convert angle from degrees to radians
+		
+		sin_angle = sin(angle_rad);     % Sine of angle: 0.7071
+		
+		value = 1000;
+		log_value = log10(value);   % Base-10 logarithm of value: 3
+	\end{verbatim}
+	
+	The \texttt{abs()} function calculates the absolute value of \texttt{x}, the \texttt{sqrt()} function computes the square root of \texttt{y}, and the \texttt{log10()} function calculates the base-10 logarithm of \texttt{value}. The \texttt{deg2rad()} function is used to convert the \texttt{angle\_deg} variable from degrees to radians before computing the sine using the \texttt{sin()} function.
+	
 \end{enumerate}
 
 \subsection{Arrays and Matrices}

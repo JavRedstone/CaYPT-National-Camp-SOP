@@ -13,14 +13,14 @@
 \addvspace {5\p@ }
 \contentsline {subsection}{\numberline {1.5}Console Input and Output}{6}{subsection.1.5}%
 \addvspace {5\p@ }
-\contentsline {subsection}{\numberline {1.6}File Input and Output}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.6}File Input and Output}{7}{subsection.1.6}%
 \addvspace {5\p@ }
 \contentsline {subsection}{\numberline {1.7}Plotting and Visualization}{7}{subsection.1.7}%
 \addvspace {7\p@ }
-\contentsline {section}{\numberline {2}MATLAB Code Examples}{7}{section.2}%
+\contentsline {section}{\numberline {2}MATLAB Code Examples}{8}{section.2}%
 \addvspace {5\p@ }
-\contentsline {subsection}{\numberline {2.1}Physics Programming Examples}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Physics Programming Examples}{8}{subsection.2.1}%
 \addvspace {5\p@ }
-\contentsline {subsection}{\numberline {2.2}MATLAB Plotting Example}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}MATLAB Plotting Example}{9}{subsection.2.2}%
 \addvspace {7\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
