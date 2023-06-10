@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.1)  10 JUN 2023 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.1)  10 JUN 2023 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,17 +921,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks36
 
 (C:\Users\javie\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(main.aux
-
-LaTeX Warning: Label `fig:gallery' multiply defined.
-
-
-LaTeX Warning: Label `fig:gallery' multiply defined.
-
-
-LaTeX Warning: Label `fig:gallery' multiply defined.
-
-)
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1126,11 +1116,11 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (C:\Users\javie\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<Figures/Figure0.png, id=4, 462.528pt x 346.896pt>
+<Figures/Figure0.png, id=4, 399.74344pt x 249.18094pt>
 File: Figures/Figure0.png Graphic file (type png)
 <use Figures/Figure0.png>
 Package pdftex.def Info: Figures/Figure0.png  used on input line 101.
-(pdftex.def)             Requested size: 273.14923pt x 204.87329pt.
+(pdftex.def)             Requested size: 318.66948pt x 198.653pt.
 
 [1
 
@@ -1189,51 +1179,64 @@ Overfull \vbox (12.61008pt too high) has occurred while \output is active []
 
 [2{C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/iwona/ec-iwona-
 sc.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 137.
 
-<Figures/Figure1.png, id=48, 492.33937pt x 295.85532pt>
-File: Figures/Figure1.png Graphic file (type png)
-<use Figures/Figure1.png>
-Package pdftex.def Info: Figures/Figure1.png  used on input line 167.
-(pdftex.def)             Requested size: 182.09486pt x 109.42412pt.
-<Figures/Figure2.png, id=49, 551.05875pt x 416.30531pt>
-File: Figures/Figure2.png Graphic file (type png)
-<use Figures/Figure2.png>
-Package pdftex.def Info: Figures/Figure2.png  used on input line 173.
-(pdftex.def)             Requested size: 182.09486pt x 137.56538pt.
-[3 <./Figures/Figure1.png>]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17
-9.
-
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 14
+3.
 (C:\Users\javie\AppData\Local\Programs\MiKTeX\tex/latex/bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 179.
+(Font)              scaled to size 9.30756pt on input line 143.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4 <./Figures/Figure2.png>]
-<Figures/Figure3.png, id=73, 462.528pt x 346.896pt>
-File: Figures/Figure3.png Graphic file (type png)
-<use Figures/Figure3.png>
-Package pdftex.def Info: Figures/Figure3.png  used on input line 289.
-(pdftex.def)             Requested size: 182.09486pt x 136.56984pt.
- [5]
-Overfull \hbox (37.19235pt too wide) in paragraph at lines 358--358
- []\T1/fvm/m/n/10.95 # Evaluate the gravitational potential function for each c
-ombination of x, y, and z[] 
+ [3]
+[4]
+Overfull \hbox (0.12201pt too wide) in paragraph at lines 298--299
+[]\T1/pplj/m/n/10.95 Matrices are two-dimensional ar-rays that store mul-ti-ple
+ val-ues in rows and columns.
  []
 
-[6 <./Figures/Figure3.png>]
-<Figures/Figure4.png, id=84, 462.528pt x 346.896pt>
-File: Figures/Figure4.png Graphic file (type png)
-<use Figures/Figure4.png>
-Package pdftex.def Info: Figures/Figure4.png  used on input line 364.
-(pdftex.def)             Requested size: 182.09486pt x 136.56984pt.
+[5]
+Overfull \hbox (16.45718pt too wide) in paragraph at lines 359--359
+ []\T1/fvm/m/n/10.95 data = fread(fileID, size, precision);      % Read numeric
+ data from a file[] 
+ []
+
+
+Overfull \hbox (27.66348pt too wide) in paragraph at lines 359--359
+ []\T1/fvm/m/n/10.95 data = fscanf(fileID, formatSpec);          % Read formatt
+ed data from a file[] 
+ []
+
+
+Overfull \hbox (10.85403pt too wide) in paragraph at lines 373--373
+ []\T1/fvm/m/n/10.95 fwrite(fileID, data, precision);            % Write numeri
+c data to a file[] 
+ []
+
+
+Overfull \hbox (22.06033pt too wide) in paragraph at lines 373--373
+ []\T1/fvm/m/n/10.95 fprintf(fileID, formatSpec, data);          % Write format
+ted data to a file[] 
+ []
+
+
+Overfull \hbox (38.86978pt too wide) in paragraph at lines 373--373
+ []\T1/fvm/m/n/10.95 writetable(data, 'output.txt');             % Write data f
+rom a table to a file[] 
+ []
+
+[6] [7] [8]
+<Figures/Figure1.png, id=112, 270.7716pt x 219.7008pt>
+File: Figures/Figure1.png Graphic file (type png)
+<use Figures/Figure1.png>
+Package pdftex.def Info: Figures/Figure1.png  used on input line 517.
+(pdftex.def)             Requested size: 182.09486pt x 147.7519pt.
  (main.bbl
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1244,35 +1247,30 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 ne 1.
 
 LaTeX Font Info:    Calculating math sizes for size <15> on input line 1.
-) [7 <./Figures/Figure4.png>] (main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+) [9 <./Figures/Figure1.png (PNG copy)>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22419 strings out of 476411
- 425857 string characters out of 5789135
- 1866845 words of memory out of 5000000
- 42318 multiletter control sequences out of 15000+600000
- 623768 words of font info for 191 fonts, out of 8000000 for 9000
+ 22423 strings out of 476411
+ 425697 string characters out of 5789135
+ 1868845 words of memory out of 5000000
+ 42317 multiletter control sequences out of 15000+600000
+ 624987 words of font info for 185 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,118p,10901b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,23n,118p,10901b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/euler/eufm10.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/euler/eurm10.pfb><C:/Users/javie/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/javie/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/javie/AppData/Local/P
-rograms/MiKTeX/fonts/type1/bera/fvmr8a.pfb><C:/Users/javie/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/nowacki/iwona/iwonab.pfb><C:/Users/javie/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/nowacki/iwona/iwonar.pfb><C:/Users/javie/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/javie/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (7 pages, 656827 bytes).
+cmsy10.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/euler/eurm10.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/fpl/fplrc8a.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/bera/fvmr8a.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/type1/n
+owacki/iwona/iwonab.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/nowacki/iwona/iwonar.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/palatino/uplb8a.pfb><C:/Users/javie/AppData/Local/Programs/MiKTeX/fo
+nts/type1/urw/palatino/uplr8a.pfb>
+Output written on main.pdf (9 pages, 453599 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 33847 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 34408 words of extra memory for PDF output out of 35830 (max. 10000000)
 
